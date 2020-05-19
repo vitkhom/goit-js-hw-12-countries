@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-form {
+  width: 600px;
+  height: 50px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.input-form__text-field {
+  width: 550px;
+  height: 48px;
+  margin: 0 auto;
+  border: 2px solid blue;
+  border-radius: 3px;
+  padding-left: 15px;
+  font-size: 30px;
+}
+
+.input-form__text-field::placeholder {
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.country {
+  display: flex;
+  width: 800px;
+  height: 360px;
+}
+
+.country__info-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding-left: 60px;
+}
+
+.country__title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.country__div {
+  margin: 5px 20px;
+  font-size: 20px;
+}
+
+.country__span {
+  font-weight: 700;
+}
+
+.country__list-item {
+  font-size: 20px;
+}
+
+.country__flag-link {
+  display: block;
+  width: 400px;
+}

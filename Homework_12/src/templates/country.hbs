@@ -1,0 +1,17 @@
+<section class="country">
+    <div class="country__info-wrapper">
+        <h1 class="country__title">{{name}}</h1>
+        <div class="country__div"><span class="country__span">Capital:</span> {{capital}}</div>
+        <div class="country__div"><span class="country__span">Population:</span> {{population}} people</div>
+        <div class="country__div"><span class="country__span">Languages:</span></div>
+        <ul class="country__list">
+         {{#each languages}}
+             <li class="country__list-item">{{this.name}}</li>
+         {{/each}}
+        </ul>
+    </div>
+
+    <div class="country__flag-wrapper">
+        <img class="country__flag-link" src="{{flag}}" alt="flag">
+    </div>  
+</section>
